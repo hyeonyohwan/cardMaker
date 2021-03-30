@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import styles from "./header.module.css";
+import Image from "../../images/logo.png";
 
 const Header = memo(({ onLogout }) => (
   <header className={styles.header}>
@@ -8,11 +9,7 @@ const Header = memo(({ onLogout }) => (
         Logout
       </button>
     )}
-    <img
-      className={styles.logo}
-      src="../../public/images/logo.png"
-      alt="logo"
-    />
+    <img className={styles.logo} src={Image} alt="logo" />
     <h1 className={styles.title}>Business Card Maker</h1>
   </header>
 ));
