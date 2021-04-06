@@ -6,7 +6,7 @@
 
 ---
 
-This homepage is a website where you can easily create a business card by business card by entering simple textr and photos on a business card.
+This homepage is a website where you can easily create a business card by business card by entering simple texts and photos on a business card.
 
 - Sign-in through Firebase's Google provider and Github provider
 - Image upload using Cloudinary and Firebase
